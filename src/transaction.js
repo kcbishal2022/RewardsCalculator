@@ -15,7 +15,7 @@ const Transaction = (props) => {
   const [rewardPoints, setRewardPoints] = useState();
   const [finalRewardpoints, setfinalRewardpoints] = useState();
   const [totalRewards, setTotalRewards] = useState();
-  const [rangeRewardPoints, setRangeRewardPoints]=useState();
+  const [rangeRewardPoints, setRangeRewardPoints]=useState(0);
   let rewardPointsArray = [];
   let rewardObj = {};
   let calulatedRewardPoints;
